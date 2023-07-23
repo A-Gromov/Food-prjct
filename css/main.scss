@@ -269,3 +269,87 @@
         }
     }
 }
+
+.main {
+    margin-bottom: 200px; //ВРЕМЕННО! УДАЛИТЬ!
+    .recipes_inner {
+        .recipes-title {
+            text-align: center;
+            margin-bottom: 96px;
+            h2 {
+                margin-bottom: 24px;
+                color: #000;
+                font-family: Inter;
+                font-size: 48px;
+                font-weight: 600;
+                letter-spacing: -1.92px;
+            }
+            p {
+                margin: 0 auto;
+                width: 706px;
+                color: rgba(0, 0, 0, 0.60);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+        .recipe-cards {
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+            .recipe-card {
+                flex-direction: column;
+                width: 400px;
+                height: 434px;
+                padding: 16px;
+                border-radius: 30px;
+                background: var(--recipe-card-grd);
+                gap: 24px;
+                .recipe-img {
+                    position: relative;
+                    img {
+                        border-radius: 30px;
+                    }
+                    .recipe-like {
+                        font-size: 20px;
+                        justify-content: center;
+                        align-items: center;
+                        height: 48px;
+                        width: 48px;
+                        top: 20px;
+                        right: 20px;
+                        position: absolute;
+                        background-color: #FFF;
+                        color: #DBE2E5;
+                        border-radius: 50%;
+                        transition: .2s;
+                        &:hover {
+                            color: var(--hover-color);
+                        }
+                    }
+                }
+                .recipe-text {
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 32px;
+                    letter-spacing: -0.96px;
+                }
+                .recipe-info {
+                    gap: 24px;
+                    p {
+                        color: rgba(0, 0, 0, 0.60);
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                        letter-spacing: -0.28px;
+                    }
+                    .icon {
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
