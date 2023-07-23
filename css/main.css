@@ -194,6 +194,10 @@
   letter-spacing: -0.32px;
   padding: 20px 27px;
 }
+.category .category__inner .category-title button:hover {
+  color: #fff;
+  background: var(--hover-color);
+}
 .category .category__inner .cards-category {
   overflow: hidden;
   gap: 40px;
@@ -308,6 +312,7 @@
   transition: 0.2s;
 }
 .main .recipes_inner .recipe-cards .recipe-card .recipe-img .recipe-like:hover {
+  cursor: pointer;
   color: var(--hover-color);
 }
 .main .recipes_inner .recipe-cards .recipe-card .recipe-text {

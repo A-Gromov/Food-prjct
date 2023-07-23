@@ -12,6 +12,7 @@
   border: none;
   border-radius: 16px;
   transition: var(--transitoin);
+  cursor: pointer;
 }
 .btn:hover {
   background-color: var(--hover-color);

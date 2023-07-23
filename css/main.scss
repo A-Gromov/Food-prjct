@@ -210,6 +210,10 @@
                 font-weight: 600;
                 letter-spacing: -0.32px;
                 padding: 20px 27px;
+                &:hover {
+                    color: #fff;
+                    background: var(--hover-color);
+                }
                 }
         }
         .cards-category {
@@ -325,6 +329,7 @@
                         border-radius: 50%;
                         transition: .2s;
                         &:hover {
+                            cursor: pointer;
                             color: var(--hover-color);
                         }
                     }
