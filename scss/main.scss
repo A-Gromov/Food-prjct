@@ -282,7 +282,7 @@
 }
 
 .main {
-    margin-bottom: 200px; //ВРЕМЕННО! УДАЛИТЬ!
+    margin-bottom: 143px; //ВРЕМЕННО! УДАЛИТЬ!
     .recipes_inner {
         .recipes-title {
             text-align: center;
@@ -364,4 +364,18 @@
             }
         }
     }
+}
+
+.chef {
+    .container {
+        .left_part_chef {
+
+        }
+        .right_part_chef {
+            justify-content: flex-end;
+        }
+    }
+    
+
+
 }
