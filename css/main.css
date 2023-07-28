@@ -161,7 +161,7 @@
 }
 .hot-offer .hot-offer__inner .left-part .author-recipe .btn-video {
   padding: 22px 36px;
-  color: #fff;
+  color: #FFF;
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
@@ -216,11 +216,7 @@
   height: 202px;
   border-radius: 30px;
   position: relative;
-  background: linear-gradient(
-    180deg,
-    rgba(112, 130, 70, 0) 0%,
-    rgba(112, 130, 70, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
   transition: 0.2s;
   transform: scale(0.9);
 }
@@ -250,39 +246,19 @@
   color: #000;
 }
 .category .category__inner .cards-category a .vegan {
-  background: linear-gradient(
-    180deg,
-    rgba(108, 198, 63, 0) 0%,
-    rgba(108, 198, 63, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
 }
 .category .category__inner .cards-category a .meat {
-  background: linear-gradient(
-    180deg,
-    rgba(204, 38, 27, 0) 0%,
-    rgba(204, 38, 27, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
 }
 .category .category__inner .cards-category a .dessert {
-  background: linear-gradient(
-    180deg,
-    rgba(240, 158, 0, 0) 0%,
-    rgba(240, 158, 0, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
 }
 .category .category__inner .cards-category a .lunch {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.05) 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
 }
 .category .category__inner .cards-category a .chocolate {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(241, 7, 7, 0.1) 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(241, 7, 7, 0.1) 100%);
 }
 
 .main {
@@ -338,8 +314,8 @@
   top: 20px;
   right: 20px;
   position: absolute;
-  background-color: #fff;
-  color: #dbe2e5;
+  background-color: #FFF;
+  color: #DBE2E5;
   border-radius: 50%;
   transition: 0.2s;
 }
@@ -368,11 +344,6 @@
   gap: 10px;
 }
 
-<<<<<<< HEAD
-.chef .container .left_part_chef .text_chef h2 {
-  align-items: center;
-  color: #000;
-=======
 .learn-more {
   margin-bottom: 160px;
 }
@@ -380,27 +351,18 @@
   margin-top: 170px;
 }
 .learn-more .learn-more__inner .info-block h2 {
->>>>>>> Andrey
   font-family: Inter;
   font-size: 48px;
   font-weight: 600;
   letter-spacing: -1.92px;
-<<<<<<< HEAD
-}
-.chef .container .left_part_chef .text_chef p {
-=======
   margin-bottom: 24px;
 }
 .learn-more .learn-more__inner .info-block p {
->>>>>>> Andrey
   color: rgba(0, 0, 0, 0.6);
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-<<<<<<< HEAD
-} /*# sourceMappingURL=main.css.map */
-=======
   margin-bottom: 72px;
 }
 .learn-more .learn-more__inner .info-block .btn-chef {
@@ -574,4 +536,3 @@
 .inst .inst__inner .btn-inst-box .btn-inst i.fa {
   font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
->>>>>>> Andrey
