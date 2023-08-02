@@ -536,4 +536,84 @@
 .inst .inst__inner .btn-inst-box .btn-inst i.fa {
   font-size: 18px;
   margin-left: 17px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.delicious-recipe {
+  margin-bottom: 164px;
+}
+.delicious-recipe .container .delicious-recipe-text {
+  margin-top: 160px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.delicious-recipe .container .delicious-recipe-text h2 {
+  width: 507px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+}
+.delicious-recipe .container .delicious-recipe-text p {
+  color: rgba(0, 0, 0, 0.6);
+  width: 620px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.delicious-recipe .container .recipe-table {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.delicious-recipe .container .recipe-table .recipe-list {
+  flex-direction: column;
+  width: 290px;
+  height: 291px;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-img {
+  position: relative;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-img img {
+  border-radius: 30px;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-img .list-like {
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  top: 16px;
+  right: 16px;
+  background-color: #FFF;
+  color: #DBE2E5;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-img .list-like:hover {
+  cursor: pointer;
+  color: var(--hover-color);
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+  margin-bottom: 27px;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-info {
+  gap: 24px;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-info .icon {
+  gap: 10px;
+}
+.delicious-recipe .container .recipe-table .recipe-list .list-info p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
